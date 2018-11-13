@@ -6,7 +6,7 @@
 
 ![](https://github.com/zj19941113/FaceLivenessDetection_SVM/blob/master/img/face.png)  
 ![](https://github.com/zj19941113/FaceLivenessDetection_SVM/blob/master/img/noface.png)  
-最终得到data.zip中的数据
+最终得到data.zip中的数据  
 原始深度图 百度云盘：https://pan.baidu.com/s/1Hi85o521oIGaAfDoavOXeA  
 
 ## 模型训练
