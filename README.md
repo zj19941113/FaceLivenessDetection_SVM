@@ -1,8 +1,9 @@
 # FaceLivenessDetection_SVM
 ## 数据获取  
 使用MATLAB进行数据采集与处理  
-运行dataGet_MATLAB/position_process.m，进行深度图片的人脸位置的快速批量标定  
-运行dataGet_MATLAB/faceGet_process.m，进行人脸深度图的批量预处理  
+* 运行dataGet_MATLAB/position_process.m，进行深度图片的人脸位置的快速批量标定  
+* 运行dataGet_MATLAB/faceGet_process.m，进行人脸深度图的批量预处理  
+
 ![](https://github.com/zj19941113/FaceLivenessDetection_SVM/blob/master/img/face.png)  
 ![](https://github.com/zj19941113/FaceLivenessDetection_SVM/blob/master/img/noface.png)  
 最终得到data.zip中的数据
