@@ -4,7 +4,7 @@ RAW_PATH = '/home/zhoujie/liveness detection/zjraw/non-face3/';
 
 file =dir([RAW_PATH ,'*.raw']);
 
-for num=22:length(file)
+for num=1:length(file)
 f1 = fopen([RAW_PATH,file(num).name], 'r');
 data0 = fread(f1, 'uint16');
 fclose(f1);
