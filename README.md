@@ -1,4 +1,7 @@
 # FaceLivenessDetection_SVM
+## 环境  
+Ubuntu ，opencv3  
+win、opencv2请参照： https://github.com/zj19941113/mnist_HandWriting_Recognition_SVM
 ## 数据获取  
 使用MATLAB进行数据采集与处理  
 * 运行dataGet_MATLAB/position_process.m，进行深度图片的人脸位置的快速批量标定  
