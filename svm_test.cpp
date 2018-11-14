@@ -42,7 +42,10 @@ int main()
             { 
                 result++; 
             } 
-        } 
+	 // else
+	 // {
+	 //	 cout << base.c_str() << " ERROR ! " << endl;
+         // } 
         accuracy = result*1.0/number;
         cout << "识别正确 " << result <<" 张，准确率： "<< accuracy << endl;
     }
@@ -67,22 +70,16 @@ void getFiles( string path, vector<string>& files )
             continue; 
         else if(ptr->d_type == 8) ///file 
             {
-                // printf("%s\n",ptr->d_name); 
                 files.push_back(ptr->d_name); 
             }
         else if(ptr->d_type == 10) ///link file 
-            //printf("%s\n",ptr->d_name); 
-            {continue; }
+           { 
+		continue; 
+	   }
         else if(ptr->d_type == 4) ///dir 
-        { 
-            files.push_back(ptr->d_name); 
-            /* 
-            memset(base,'\0',sizeof(base)); 
-            strcpy(base,basePath); 
-            strcat(base,"/"); 
-            strcat(base,ptr->d_nSame); 
-            readFileList(base); */ 
-        } 
+           { 
+                files.push_back(ptr->d_name); 
+           } 
     } 
     closedir(dir);
     sort(files.begin(), files.end());
