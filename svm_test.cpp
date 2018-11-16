@@ -45,7 +45,8 @@ int main()
 	 // else
 	 // {
 	 //	 cout << base.c_str() << " ERROR ! " << endl;
-         // } 
+         // }
+         } 
         accuracy = result*1.0/number;
         cout << "识别正确 " << result <<" 张，准确率： "<< accuracy << endl;
     }
